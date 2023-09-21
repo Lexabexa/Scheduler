@@ -17,3 +17,4 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persis
 
+![05-third-party-apis-demo](https://github.com/Lexabexa/Scheduler/assets/130160635/fda981a7-689d-4a56-984f-4d29514fc114)
