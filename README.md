@@ -1,4 +1,5 @@
 # Scheduler
+Created a scheduler to save events for each hour of a typical working day using HTML and CSS powered by jQuery.
 
 # TableOfContents
 * [Scheduler](#Scheduler)
@@ -15,6 +16,7 @@
 * [License](#License)
 
 # Description
+```m
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
@@ -32,13 +34,16 @@ WHEN I click the save button for that time block
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persis
+```
 
 ![05-third-party-apis-demo](https://github.com/Lexabexa/Scheduler/assets/130160635/fda981a7-689d-4a56-984f-4d29514fc114)
+# Usage
+[Day.js](https://day.js.org/) 
 
 # Contributing
 [UC Berkeley](https://courses.bootcampspot.com/courses/3634/external_tools/249)
 
-[Starter Code](https://github.com/coding-boot-camp/potential-enigma)
+[Starter Code](https://github.com/coding-boot-camp/crispy-octo-meme)
 
 # Questions
 
