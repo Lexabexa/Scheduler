@@ -1,4 +1,20 @@
 # Scheduler
+
+# TableOfContents
+* [Scheduler](#Scheduler)
+* [Table of Contents](#TableofContents)
+* [Description](#Description)
+* [Screenshot](#Screenshot)
+* [Link](#Link)
+* [Video](#Video)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Tests](#Tests)
+* [Contributing](#Contributing)
+* [Questions](#Questions)
+* [License](#License)
+
+# Description
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
@@ -18,3 +34,39 @@ WHEN I refresh the page
 THEN the saved events persis
 
 ![05-third-party-apis-demo](https://github.com/Lexabexa/Scheduler/assets/130160635/fda981a7-689d-4a56-984f-4d29514fc114)
+
+# Contributing
+[UC Berkeley](https://courses.bootcampspot.com/courses/3634/external_tools/249)
+
+[Starter Code](https://github.com/coding-boot-camp/potential-enigma)
+
+# Questions
+
+Email: <lexabexa3@gmail.com>
+
+Github: <https://github.com/Lexabexa>
+
+# License
+
+MIT License
+
+Copyright (c) 2023 Alexa Webb
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
