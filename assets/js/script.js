@@ -1,9 +1,9 @@
-
 $(document).ready(function() {
   //display current day and time
-  $("#currentDay").text(dayjs().format("dddd, MMMM D, YYYY"));
-  $("#currentTime").text(dayjs().format("hh:mm:ss a"));
-});
+  const currentDay = dayjs().format("dddd, MMMM D, YYYY");
+  const currentTime = dayjs().format("hh:mm:ss a");
+  $("#currentDay").text(currentDay);
+  $("#currentTime").text(currentTime);
   
   //save button function to save to local storage 
   $(".saveBtn").click(function() {
@@ -23,23 +23,25 @@ $(document).ready(function() {
   
   // the past, present, or future class to each time
   // block by comparing the id to the current hour.
-  const currentHour = dayjs().hour();
+  const currentHour = moment().format("H");
   $(".time-block").each(function() {
-    const timeBlockHour = parseInt($(this).attr("id"));
+    const timeBlockHour = parseInt($(this).attr("id").split("-")[1]);
     if (timeBlockHour < currentHour) {
       $(this).addClass("past");
     } else if (timeBlockHour === currentHour) {
       $(this).addClass("present");
+      $(this).removeClass("past");
     } else {
       $(this).addClass("future");
-    }
-  });
+      $(this).removeClass("past");
+      $(this).removeClass("present");
+      }
+    });
+  
   
   //refresh storage
-  $(document).ready(function() {
-    var refreshBtn = $("#Refresh");
-    refreshBtn.on("click", function() {
-      localStorage.clear();
-      $(".description").val("");
-    });
+  $("#Refresh").on("click", function() {
+    localStorage.clear();
+    $(".description").val("");
   });
+});
