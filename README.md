@@ -5,12 +5,8 @@ Created a scheduler to save events for each hour of a typical working day using 
 * [Scheduler](#Scheduler)
 * [Table of Contents](#TableofContents)
 * [Description](#Description)
-* [Screenshot](#Screenshot)
 * [Link](#Link)
 * [Video](#Video)
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [Tests](#Tests)
 * [Contributing](#Contributing)
 * [Questions](#Questions)
 * [License](#License)
@@ -35,14 +31,20 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persis
 ```
+# Link
 
-# Usage
+[Deployed Site](https://lexabexa.github.io/Scheduler/)
+
+# Video
+![Untitled_ Sep 27, 2023 10_17 PM](https://github.com/Lexabexa/Scheduler/assets/130160635/aa9b986b-c82e-4a76-bc10-997ba4f3aee3)
 
 
 # Contributing
 [UC Berkeley](https://courses.bootcampspot.com/courses/3634/external_tools/249)
 
 [Youtube](https://youtube.com)
+
+[DayJS](https://day.js.org/)
 
 [Starter Code](https://github.com/coding-boot-camp/crispy-octo-meme)
 
