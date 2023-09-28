@@ -36,12 +36,13 @@ WHEN I refresh the page
 THEN the saved events persis
 ```
 
-![05-third-party-apis-demo](https://github.com/Lexabexa/Scheduler/assets/130160635/fda981a7-689d-4a56-984f-4d29514fc114)
 # Usage
-[Day.js](https://day.js.org/) 
+
 
 # Contributing
 [UC Berkeley](https://courses.bootcampspot.com/courses/3634/external_tools/249)
+
+[Day.js](https://day.js.org/) 
 
 [Starter Code](https://github.com/coding-boot-camp/crispy-octo-meme)
 
