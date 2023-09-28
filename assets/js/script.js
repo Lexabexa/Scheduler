@@ -15,7 +15,7 @@ $(document).ready(function() {
     localStorage.setItem(timeBlockId, description);
    });
     //listener for click events on the save button. 
-   $('.description').each(function())
+   $('.description').each(function(){
     const timeBlockId = $(this).parent().attr('id');
     const savedDescription = localStorage.getItem(timeBlockId);
     if (savedDescription) {
