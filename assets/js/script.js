@@ -37,11 +37,4 @@ $(document).ready(function() {
       $(this).removeClass("present");
       }
     });
-  
-  
-  //refresh storage
-  $("#Refresh").on("click", function() {
-    localStorage.clear();
-    $(".description").val("");
-  });
 });
