@@ -40,7 +40,11 @@ $(document).ready(function() {
   });
   
   //refresh storage
-  $("#Refresh").click(function() {
-    location.reload();
+  $(document).ready(function() {
+    var refreshBtn = $("#Refresh");
+    refreshBtn.on("click", function() {
+      localStorage.clear();
+      $(".description").val("");
+    });
   });
 });
